@@ -33,13 +33,46 @@
 - **f-string** - if we want to use variables , just put an f before of first double quote
 	- eg. print(f"Hey, {name}")
 - **string methods** - 
-	1.  .strip() - remove white spaces in the string - lstrip() , rstrip()
-		- eg . 
-	2. .upper()
-	3. .lower()
-	4. .title()
-	5. . capitalize()
-	6. .split()
+	1.  .strip() - remove white spaces in the string - 
+		- lstrip() - removes left white spaces
+		- rstrip() - removes right white spaces
+	2. .upper() --> all letters of the string to upper case
+	3. .lower() --> all letters of the string to lower case
+	4. .title() --> first letter of the each word in the string is capital
+	5. .capitalize() --> first letter of the complete string is capital .
+	6. .split() --> divides the string based on the separator provided as arg in the func and converts the string into a list .
+		- we can also assign the splitted halves of the string to different variables .
+	
 	 - we can also use multiple of these functions together . 
 		 - eg. name.strip().title() 
-		 - 
+
+- **Type conversion** - 
+	- int("String") --> converts string no.s to integers . 
+	- str(num or bool) --> converts a no. or bool(true/false) to a string
+	- float(integer or string) --> converts to a decimal floating pt no. 
+- **round(float_no, no_of_digit)** --> rounds a floating no. to the decimal digits as no. specified .
+- **How do we print no.s with a , --> eg. 1,000,000**
+	- use f-strings 
+	- print(f"{100000:,}")    --> we use colon : and then a comma , .
+	- by default it uses American system -> millions , thousands .. 
+- **during division**   
+	- by default its float .
+	- if we convert into integer --> prints the lower int value , 
+	- eg -> 3/2 = 1 (int)
+- **We can also round no.s using f-strings** -- 
+	- print(f"{100.99999:.2f}") --> 101.00   -> this will round the no. to 2 decimal places 
+- **functions -> def**
+	- Functions needs to be defined before their use , just like variables
+	- we can either define the main function --> def main():
+		and then we can define the other functions . 
+		at the end just call main function -> this way it is much easier to write snd  read code
+	- non-parameter -> def fn_name( ) : 
+	- parameter function -> def fn_name(parameter) :
+	- parameter with default value -> def fn_name(parameter = 'Default_value') : 
+		- if nothing is passed when the fn is called , then it uses the default value of the parameter
+	- return fn --> def fn_name( ... ) : return some_value/variable .. 
+- **Scope** --> 
+	- local scope --> defined inside a function -> can be passed to other functions but it cannot be used in other functions -> will give us name error , as the variable is not defined in that function . 
+	- Although we can use the same name for variables , as the functions are different .
+	- global scope --> defined globally --> can be used in any function -> a change in the value of the variable , can be seen globally outside the function as well .
+	 
