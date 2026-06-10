@@ -4,3 +4,6 @@
 2. Name Error -
 	- a variable , func name is not defined before its use .
 	- eg. - NameError: name 'hello' is not defined
+3. ModuleNotFoundError   -
+	- wrong module imported
+	- 
