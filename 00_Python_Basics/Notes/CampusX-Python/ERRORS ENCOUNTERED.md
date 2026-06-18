@@ -6,4 +6,6 @@
 	- eg. - NameError: name 'hello' is not defined
 3. ModuleNotFoundError   -
 	- wrong module imported
-	- 
+4. Type Error -
+	 - When wrong actions , like changing the string 
+	 - str objects are immutable , ... kind of things 
