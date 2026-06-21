@@ -7,5 +7,11 @@
 3. ModuleNotFoundError   -
 	- wrong module imported
 4. Type Error -
-	 - When wrong actions , like changing the string 
-	 - str objects are immutable , ... kind of things 
+	 - When wrong actions , like changing the string , tuples
+	 - str,tuple objects are immutable , ... kind of things 
+5. UnboundLocalError - 
+	- when a variable doesn't exist , or deleted and then called 
+	- a variable is not associated with a value , its just there in the memory 
+6. key error -
+	- when a key , or an element doesn't exist in the data type when its called 
+7. 
