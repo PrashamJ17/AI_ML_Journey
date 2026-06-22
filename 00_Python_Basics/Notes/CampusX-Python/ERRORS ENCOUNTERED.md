@@ -9,6 +9,7 @@
 4. Type Error -
 	 - When wrong actions , like changing the string , tuples
 	 - str,tuple objects are immutable , ... kind of things 
+	 - When position error during functions calling
 5. UnboundLocalError - 
 	- when a variable doesn't exist , or deleted and then called 
 	- a variable is not associated with a value , its just there in the memory 
