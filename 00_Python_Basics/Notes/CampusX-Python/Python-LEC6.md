@@ -98,3 +98,5 @@ Functions
 	- this fn needs to be stored in a variable , and then to use it , the variable is called .  
 	- written in one line , not reusable so much 
 	- They are HOF - higher order functions
+	- used with map( ),filter( ),reduce( )
+	- reduce needs to be imported from import functools

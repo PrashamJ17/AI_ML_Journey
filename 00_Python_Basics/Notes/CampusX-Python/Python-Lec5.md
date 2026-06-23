@@ -144,5 +144,5 @@ Dictionaries -
 	- del dic[key] -> deleted the specific key-value pair 
 	- dic.clear( ) -> this will empty the dictionary . 
 
-- 
+
 
