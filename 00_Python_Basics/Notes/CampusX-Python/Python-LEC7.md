@@ -59,7 +59,7 @@ OOPS - PART-1
 	- superpower -> It includes all the code that displays how the class objects look like when print(obj_name) -> is called . 
 	- by default when print is called , it goes into __ str __ ( ) and accordingly displays the object
 
-- __ add __ (self,other) ->
+- __ add __ (self,other) -> 
 	- this is a magic method to add to objects of the same class 
 	- self -> first object , other -> 2nd object 
 	- whenever obj1 + obj2 -> the operand + is used , then it accesses the 
@@ -68,3 +68,6 @@ OOPS - PART-1
 - __ sub __ (self,other) -> same as above for subtraction of 2 objects - 
 - __ mul __ (self,other) -> same as above for multiplication of 2 objects *
 - __ truediv__ (self,other) -> same as above for division of 2 objects / 
+
+- __ repr__ (self) -> to represent objects , not like <main memory_add > but a string representation of objects , when they are used within class , used by devlopers ,
+- similar to __str__ but its a representation of objects and not print( obj ) , 

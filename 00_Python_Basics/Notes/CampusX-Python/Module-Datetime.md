@@ -1,0 +1,5 @@
+- import Datetime (this is the main class , it has different classes within it )
+- datetime.strptime -> converts strings to datetime object
+- string formatting -> year -> %Y , month - %m , day - %d
+- datetime.now() -> this gives the current date and time
+- obj_name.date( ) -> gives only the current date of the obj . 
