@@ -36,6 +36,7 @@ def aggre_eg():
 
 # aggre_eg()
 
+# INHERITANCE - 
 
 # PARENT
 class User :
