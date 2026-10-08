@@ -11,7 +11,7 @@
 	- print( values , sep= ' ' , end= '\n' ) --> this is the print function , sep --> separator to separate multiple values --> by default sep = ' ' 
 		 end --> after print fn executes it end with cursor moving to the next line (by default) --> \n 
 		 we can specify the end or sep values , to whatever we want 
-	- eg. print("Hello",1,4.5,True, sep="-",end=" .") --> this will sep multiple values by -  and ed with . and not go to the next line .
+	- eg. print("Hello",1,4.5,True, sep="-",end=" .") --> this will sep multiple values by -  and end with . and not go to the next line .
 
 - **Data Types** - 
 	- integer -> int
@@ -31,7 +31,7 @@
 - **Variables** - containers used to store info 
 	- when you don't have definite idea of the input , you use variables to store those inputs and use the variable names instead of those inputs everywhere else inside your code 
 	- var_name = value 
-	- eg. name = 'Prasham'-
+	- eg. name = 'Prasham'
 	- Dynamic typing -> In python , variables are not defined with a specific data type like in cpp , c , etc --> ( known as static typing)
 	- Dynamic binding -> In python , variable's value can be changed 
 		- eg - name = 3 .... name = 'Prasham'  -> we change the values of the variables unlike static binding in c, cpp , etc

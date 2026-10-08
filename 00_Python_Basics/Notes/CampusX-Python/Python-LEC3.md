@@ -20,7 +20,7 @@
 5. Indexing in strings - 
 	- positive indexing- starts from 0 - from forward - from left to right
 	- accessing string - String_name[index] ->get the character of the string at an index 
-	- negative indexing - starts from -1 , goes from backwards till the end - from right ot left 
+	- negative indexing - starts from -1 , goes from backwards till the end - from right to left 
 
 6. Slicing - 
 	- in slicing we provide range of index - [ start : stop : step-size] , separated by : 

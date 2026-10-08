@@ -69,5 +69,5 @@ OOPS - PART-1
 - __ mul __ (self,other) -> same as above for multiplication of 2 objects *
 - __ truediv__ (self,other) -> same as above for division of 2 objects / 
 
-- __ repr__ (self) -> to represent objects , not like <main memory_add > but a string representation of objects , when they are used within class , used by devlopers ,
+- __ repr__ (self) -> to represent objects , not like <main memory_add > but a string representation of objects , when they are used within class , used by developers ,
 - similar to __str__ but its a representation of objects and not print( obj ) , 
